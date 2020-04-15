@@ -18,10 +18,10 @@ class HomePage extends Component {
                 <Route path="/" exact>
                   <Welcome />
                 </Route>
-                <Route path="/addMovie">
+                <Route path="/movies">
                   <AddMovie />
                 </Route>
-                <Route path="/movies">
+                <Route path="/addMovie">
                   <MovieList />
                 </Route>
               </Col>
